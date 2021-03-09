@@ -5,4 +5,4 @@
         <span>{{hero.id}}</span> {{hero.name}}
     </li>
 </ul>
-<h1><div *ngIf="selectedHero">{{selectedHero.id}} {{selectedHero.name}}</div></h1>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
